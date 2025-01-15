@@ -8,3 +8,8 @@ Ce repository contient les fichiers de configuration pour les microservices dans
 - **microservice-produit.properties** : Configuration du microservice-produit.
 - **application.properties** : Configuration globale pour les microservices.
 
+config-repo/
+├── application.properties       # Configuration globale pour tous les services
+├── commandes-service.properties # Configuration spécifique au service commandes
+├── produit-service.properties   # Configuration spécifique au service produit
+├── gateway-service.properties   # Configuration spécifique à l'API Gateway
